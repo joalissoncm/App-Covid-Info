@@ -83,11 +83,11 @@
                 android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/textView3"
+                app:layout_constraintStart_toEndOf="@+id/text_virusbtn"
                 app:layout_constraintTop_toBottomOf="@+id/btn_covid" />
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/text_virusbtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -141,7 +141,7 @@
                 android:background="?attr/selectableItemBackgroundBorderless"
                 app:layout_constraintEnd_toStartOf="@+id/btn_drugs"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView3"
+                app:layout_constraintTop_toBottomOf="@+id/text_virusbtn"
                 app:srcCompat="@drawable/app_btnprotec" />
 
             <TextView
