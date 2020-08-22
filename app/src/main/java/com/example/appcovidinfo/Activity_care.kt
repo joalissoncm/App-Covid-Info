@@ -1,0 +1,15 @@
+package com.example.appcovidinfo
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import kotlinx.android.synthetic.main.activity_about.*
+
+class Activity_care : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_care)
+
+        setSupportActionBar(toolbar2)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+    }
+}
